@@ -1,9 +1,9 @@
 #include "sort.h"
 
 /**
- * swap - A function that sways the positions of 2 integers
- * @first_int: A pointer to the first integer
- * @second_int: A pointer to the 2nd integer
+ * swap - function that sways the positions of 2 integers
+ * @first_int: pointer to the first integer
+ * @second_int: pointer to the 2nd integer
  */
 void swap(int *first_int, int *second_int)
 {
@@ -13,10 +13,10 @@ void swap(int *first_int, int *second_int)
 }
 
 /**
- * bubble_sort - A function that implements the bubble sort
+ * bubble_sort - function that implements the bubble sort
  * algorithm
  * @array: The array to be printed
- * @size: The number of elements in @array
+ * @size: Number of elements in @array
  *
  * Return: void
  */
