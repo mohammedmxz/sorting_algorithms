@@ -27,8 +27,5 @@ void freeing(listint_t *list);
 void sorting_validation(int *array, size_t size);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
-void qs(int *array, ssize_t before, ssize_t after, size_t size);
-size_t los(int *array, ssize_t before, ssize_t after, size_t size);
-void insert(int *array, size_t size);
 
 #endif 
