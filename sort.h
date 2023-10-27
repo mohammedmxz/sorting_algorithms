@@ -29,10 +29,6 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void qs(int *array, ssize_t before, ssize_t after, size_t size);
 size_t los(int *array, ssize_t before, ssize_t after, size_t size);
-void shell_sort(int *array, size_t size);
-size_t knuth_sequence_formula(size_t size);
-void merge_sort(int *array, size_t size);
-void merge(int *array, int *left, size_t lz, int *right, size_t rz);
 void insert(int *array, size_t size);
 
 #endif 
